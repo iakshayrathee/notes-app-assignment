@@ -67,9 +67,14 @@ const GoogleSignInButton: React.FC<GoogleSignInButtonProps> = ({
 
   return (
     <div 
-      ref={buttonRef}
-      className={`w-full ${disabled ? 'opacity-50 pointer-events-none' : ''}`}
-    />
+      className={`w-full min-h-[48px] ${disabled ? 'opacity-50 pointer-events-none' : ''}`}
+    >
+      <div 
+        ref={buttonRef}
+        className="w-full h-full min-h-[48px]"
+        style={{ minWidth: '240px' }}
+      />
+    </div>
   );
 };
 
