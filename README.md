@@ -24,6 +24,20 @@ A beautiful, full-stack note-taking application built with React TypeScript fron
 - **Error Handling**: Comprehensive error states with user-friendly messages
 - **Accessibility**: Proper form labels, keyboard navigation, and screen reader support
 
+## Screenshots
+
+### Sign Up Page
+![Sign Up Page](./screenshots/signup_page.png)
+
+### Sign In Page
+![Sign In Page](./screenshots/signin_page.png)
+
+### Sign In Mobile View
+![Sign In Mobile View](./screenshots/signin_mobile_view.png)
+
+### Dashboard
+![Dashboard](./screenshots/dashboard_page.png)
+
 ## Technology Stack
 
 ### Frontend
