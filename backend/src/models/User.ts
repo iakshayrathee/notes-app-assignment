@@ -8,6 +8,8 @@ export interface IUser extends Document {
   password?: string;
   googleId?: string;
   isVerified: boolean;
+  otp?: string;
+  otpExpires?: Date;
   comparePassword(password: string): Promise<boolean>;
 }
 
@@ -39,6 +41,12 @@ const UserSchema: Schema = new Schema({
     type: Boolean,
     default: false
   },
+  otp: {
+    type: String
+  },
+  otpExpires: {
+    type: Date
+  }
 }, {
   timestamps: true
 });
