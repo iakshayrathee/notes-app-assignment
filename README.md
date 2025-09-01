@@ -38,6 +38,16 @@ A beautiful, full-stack note-taking application built with React TypeScript fron
 ### Dashboard
 ![Dashboard](./screenshots/dashboard_page.png)
 
+## Deployed Application
+
+### Frontend
+- URL: [https://hd-notes-frontend.netlify.app/](https://hd-notes-frontend.netlify.app/)
+- Hosting: Netlify
+
+### Backend
+- API URL: [https://notes-app-assignment-annz.onrender.com/api](https://notes-app-assignment-annz.onrender.com/api)
+- Hosting: Render
+
 ## Technology Stack
 
 ### Frontend
